@@ -1,0 +1,155 @@
+.img-wrap {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      115deg,
+      rgba(12, 12, 236, 0.8),
+      rgba(168, 117, 69, 0.7)
+    ),
+    url(https://c.stocksy.com/a/Yde400/z9/1109524.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: -9999;
+}
+
+#title1 {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#survey-form {
+  display: block;
+  background-color: rgb(15, 4, 43);
+  height: 1600px;
+  opacity: 0.7;
+  margin-left: 0.25rem;
+  margin-top: 3rem;
+  font-size: 1.3rem;
+  color: #e4e4e4;
+  font-family: "Poppins", sans-serif;
+  padding-top: 30px;
+  border-radius: 6px;
+  
+}
+.input-wrap input {
+  width: 88%;
+  padding: 0px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  line-height: 2.2em;
+  padding-top: 2px;
+  margin-left: 35px;
+  display: flex;
+ font-size: 1.125rem;
+
+}
+input::placeholder {
+  font-size: 1.3em;
+  padding-left: 10px;
+}
+label {
+  float: left;
+  margin-left: 35px;
+  margin-top: 20px;
+  padding: 10px 0;
+
+}
+select {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  padding: 0;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  line-height: 2.2em;
+  padding-top: 10px;
+  margin: auto;
+  display: flex;
+}
+.form-control {
+  font-size: 1.1em;
+  padding-left: 6px;
+  padding-bottom: 3px;
+  font-family: "Poppins", sans-serif;
+  line-height: 2.2em;
+  border-radius: 6px;
+  color: grey;
+  margin-left: 35px;
+  width: 89%;
+}
+.user-choice {
+    margin-left: 35px;
+    margin-top: 20px;
+    
+}
+
+.user-wrap label {
+    display: flex;
+    align-items: center;
+    line-height: 0.5rem;
+    margin-top: 2px;
+
+}
+.user-wrap {
+    display: flex;
+    flex-direction: column;
+    }
+#input-radio {
+    margin-right: 15px;
+    font-size: 30px;
+    width: 20px;
+    height: 20px;
+}
+#user-apply{
+    display: flex;
+    flex-direction: column;
+}
+#user-apply p{
+    margin-left: 35px;
+  
+}
+#user-apply label {
+    line-height: 0.5rem;
+    margin-top: 2px;
+}
+#input-checkbox {
+    width: 20px;
+    height: 20px;
+}
+#user-comment  {
+    margin-left: 35px;
+
+    
+
+}
+#submit {
+    width: 91%;
+    padding-left: 10px;
+    line-height: 2em;
+    margin-top: 20px;
+    background-color: rgb(17, 160, 17);
+    font-size: 1.1em;
+    cursor: pointer;
+    color:white;
+    border-radius: 3px;
+    
+}
+#text-area {
+    width: 90%;
+    border-radius: 3px;
+}
+#text-area::placeholder {
+    font-size: 1.6em;
+  padding-left: 10px;
+}
+@media (min-width: 500px) {
+  #survey-form {
+    width: 80%;
+    margin: auto;
+  }
+}
